@@ -1,0 +1,65 @@
+{
+    "videos": [
+        {
+            "id": "v1",
+            "title": "Introduction to JavaScript",
+            "description": "Learn the basics of JavaScript in this introductory tutorial.",
+            "channelId": "c1",
+            "channelTitle": "CodeAcademy",
+            "views": 15000,
+            "likes": 500,
+            "comments": [
+                {
+                    "user": "JohnDoe",
+                    "comment": "Great tutorial, very clear!",
+                    "likes": 20,
+                    "postedAt": "2023-09-01T12:00:00Z"
+                },
+                {
+                    "user": "JaneSmith",
+                    "comment": "Helped me a lot, thanks!",
+                    "likes": 15,
+                    "postedAt": "2023-09-02T15:30:00Z"
+                }
+            ],
+            "publishedAt": "2023-08-20T09:00:00Z"
+        },
+        {
+            "id": "v2",
+            "title": "CSS Flexbox and Grid Layouts",
+            "description": "Master CSS layouts with this deep dive into Flexbox and Grid.",
+            "channelId": "c1",
+            "channelTitle": "CodeAcademy",
+            "views": 20000,
+            "likes": 800,
+            "comments": [
+                {
+                    "user": "AliceWonder",
+                    "comment": "This made layout so easy to understand!",
+                    "likes": 50,
+                    "postedAt": "2023-09-10T10:00:00Z"
+                }
+            ],
+            "publishedAt": "2023-08-25T10:00:00Z"
+        }
+    ],
+    "channels": [
+        {
+            "id": "c1",
+            "title": "CodeAcademy",
+            "description": "Your go-to source for coding tutorials and web development.",
+            "subscribers": 5000,
+            "videos": ["v1", "v2"]
+        }
+    ],
+    "playlists": [
+        {
+            "id": "p1",
+            "title": "Web Development Basics",
+            "description": "A playlist covering the basics of web development.",
+            "channelId": "c1",
+            "videos": ["v1", "v2"],
+            "publishedAt": "2023-08-15T08:00:00Z"
+        }
+    ]
+}
